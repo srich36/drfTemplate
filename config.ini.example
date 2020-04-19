@@ -1,0 +1,12 @@
+[DJANGO]
+secret_key=allsecretsallthetime
+debug=1
+
+[DB]
+password=db_password
+name=db_name
+host=db
+user=root
+
+[REDIS]
+host=redis

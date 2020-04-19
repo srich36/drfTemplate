@@ -11,8 +11,8 @@ services:
     ports:
       - 3306:3306
     environment:
-      MYSQL_ROOT_PASSWORD: cross_copy
-      MYSQL_DATABASE: backend_prod
+      MYSQL_ROOT_PASSWORD: db_password
+      MYSQL_DATABASE: db_name
       MYSQL_ENTRYPOINT_INITDB: ./mysql/docker-entrypoint-initdb.d
     networks:
       - internal
